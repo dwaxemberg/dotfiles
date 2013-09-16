@@ -9,6 +9,7 @@ HISTFILE=~/.history
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
+
 export TERM='xterm-256color'
 export EDITOR='vim'
 set -o emacs

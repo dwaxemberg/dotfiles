@@ -1,55 +1,25 @@
 VisualHostKey = yes
 
-Host ec2
-  HostName aaronneyer.com
-  User aaron
-  ForwardAgent yes
-
-Host krall
-  Hostname krall.case.edu
-  User aaron
-  ForwardAgent yes
-
-Host minecraft
-  Hostname minecraft.case.edu
-  User aaron
-  ForwardAgent yes
-
-Host irc
-  Hostname irc.case.edu
-  User aaron
-  ForwardAgent yes
-
 Host people
   Hostname people.acm.case.edu
-  User aaron
-  ForwardAgent yes
-
-Host projects
-  Hostname projects.acm.case.edu
-  User aaron
+  User diego 
   ForwardAgent yes
 
 Host linab
   Hostname eecslinab4.case.edu
-  User agn31
+  User drw75
   ForwardAgent yes
 
-Host google
-  Hostname google.case.edu
-  User aaron
+Host reaper
+  Hostname reaper.case.edu
+  User diego 
   ForwardAgent yes
 
-Host ibm
-  Hostname ibm.case.edu
-  User aaron
+Host reaper-rsa
+  Hostname reaper-rsa.case.edu
+  User diego
 
-Host hvz
-  Hostname hvz.case.edu
-  User aaron
-  ForwardAgent yes
-
-Host pol
-  Hostname pol.corp.causes.com
-  User aneyer
+Host bingo
+  Hostname bingo.case.edu
+  User diego
   ForwardAgent yes
