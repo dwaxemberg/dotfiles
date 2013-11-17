@@ -5,11 +5,6 @@ Host people
   User diego 
   ForwardAgent yes
 
-Host linab
-  Hostname eecslinab4.case.edu
-  User drw75
-  ForwardAgent yes
-
 Host reaper
   Hostname reaper.case.edu
   User diego 
