@@ -1,6 +1,6 @@
 [user]
-  name = Diego Waxemberg
-  email = diego.waxemberg@gmail.com
+	name = Diego Waxemberg
+	email = diego.waxemberg@gmail.com
 [github]
   user = dwaxemberg
 [help]
@@ -19,7 +19,7 @@
 [apply]
   whitespace = fix
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/diegowaxemberg/.gitignore
   pager = less -r
   # global gitignore, useful for hiding editor files
 [push]
@@ -45,3 +45,9 @@
   rom = rebase origin/master
   from = !sh -c 'git fetch origin && git rebase origin/master' -
   wip = commit --message=WIP --no-verify
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

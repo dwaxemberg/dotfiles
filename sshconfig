@@ -2,7 +2,7 @@ VisualHostKey = yes
 
 Host people
   Hostname people.acm.case.edu
-  User diego 
+  User drw75 
   ForwardAgent yes
 
 Host reaper

@@ -10,6 +10,7 @@ path=(
   /usr/local/sbin
   /usr/sbin
   /sbin
+  /$HOME/Documents/adt/sdk/platform-tools/
 )
 
 export PATH
